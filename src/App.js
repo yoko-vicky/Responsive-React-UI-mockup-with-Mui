@@ -2,8 +2,9 @@ import { Button, styled, Typography } from '@mui/material';
 import React from 'react';
 
 function App() {
-  const BlueButton = styled(Button)({
-    backgroundColor: 'skyblue',
+  // @ts-ignore
+  const BlueButton = styled(Button)(({ theme }) => ({
+    backgroundColor: theme.palette.secondary.main,
     color: '#888',
     margin: 5,
     '&:hover': {
@@ -13,15 +14,28 @@ function App() {
       backgroundColor: 'grey',
       color: 'white',
     },
-  });
+  }));
 
   return (
     <div>
       <Typography variant="h1" component="h2">
         h1. Heading
       </Typography>
-      <BlueButton>My Button</BlueButton>
-      <BlueButton>My Button 2</BlueButton>
+      <Button color="primary" variant="contained">
+        Button
+      </Button>
+      <Button color="secondary" variant="outlined">
+        Button
+      </Button>
+      <Button
+        // @ts-ignore
+        color="mycolor"
+        variant="outlined"
+      >
+        Button
+      </Button>
+      <BlueButton>BlueButton 1</BlueButton>
+      <BlueButton disabled>BlueButton 2</BlueButton>
     </div>
   );
 }
