@@ -74,14 +74,14 @@ function Rightbar() {
               loading="lazy"
             />
           </ImageListItem>
-          <ImageListItem key={0}>
+          <ImageListItem key={1}>
             <img
               src="https://images.pexels.com/photos/15171881/pexels-photo-15171881.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt={'alt'}
               loading="lazy"
             />
           </ImageListItem>
-          <ImageListItem key={0}>
+          <ImageListItem key={2}>
             <img
               src="https://images.pexels.com/photos/5364939/pexels-photo-5364939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt={'alt'}

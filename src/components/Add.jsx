@@ -4,7 +4,6 @@ import {
   Button,
   ButtonGroup,
   Fab,
-  IconButton,
   Modal,
   Stack,
   styled,
@@ -47,11 +46,9 @@ const Add = () => {
         }}
         onClick={() => setOpenModal(true)}
       >
-        <IconButton>
-          <Fab color="primary" aria-label="add">
-            <AddIcon />
-          </Fab>
-        </IconButton>
+        <Fab color="primary" aria-label="add">
+          <AddIcon />
+        </Fab>
       </Tooltip>
       <StyledModal
         open={openModal}
