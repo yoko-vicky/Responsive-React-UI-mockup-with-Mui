@@ -34,7 +34,7 @@ const Icons = styled(Box)(({ theme }) => ({
     display: 'flex',
   },
 }));
-const UserBox = styled(Box)(({ theme }) => ({
+export const UserBox = styled(Box)(({ theme }) => ({
   display: 'flex',
   gap: 10,
   alignItems: 'center',

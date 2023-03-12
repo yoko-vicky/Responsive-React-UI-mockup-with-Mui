@@ -4,7 +4,7 @@ import Post from './Post';
 
 function Feed() {
   return (
-    <Box flex={3} p={2}>
+    <Box flex={3} p={2} sx={{ marginLeft: { xs: 0 } }}>
       <Post />
       <Post />
       <Post />

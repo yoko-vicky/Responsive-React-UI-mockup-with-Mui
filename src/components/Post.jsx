@@ -14,7 +14,7 @@ import { MoreVert, Favorite, Share, FavoriteBorder } from '@mui/icons-material';
 
 const Post = () => {
   return (
-    <Card sx={{ margin: 5 }}>
+    <Card sx={{ margin: { xs: 0, sm: 2, md: 5 } }}>
       <CardHeader
         avatar={
           <Avatar
