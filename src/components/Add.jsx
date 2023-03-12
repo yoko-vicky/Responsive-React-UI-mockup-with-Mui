@@ -64,7 +64,8 @@ const Add = () => {
             width: '80%',
             maxWidth: 400,
             height: 280,
-            backgroundColor: 'white',
+            backgroundColor: 'background.default',
+            color: 'text.primary',
             padding: 3,
             borderRadius: 3,
           }}
