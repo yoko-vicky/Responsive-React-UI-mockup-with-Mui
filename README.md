@@ -19,4 +19,4 @@ You may also see any lint errors in the console.
 
 ## Acknowledgements
 - [Mui tutorial](https://www.youtube.com/watch?v=fzxEECHnsvU) provided by [Lama Dev](https://www.youtube.com/@LamaDev)
-- [Pexels](https://www.pexels.com/
+- [Pexels](https://www.pexels.com/)
