@@ -1,9 +1,9 @@
-# Social Media app UI example with Mui
+# Social Media responsive app UI example with Mui
 
 ![Screenshot](./screenshot.gif)
 - [Live Demo](https://social-media-app-ui-built-with-mui.netlify.app/)
 
-This is a simple mockup project of React social media app built with Mui by following [Mui video tutorial](https://www.youtube.com/watch?v=fzxEECHnsvU) provided by [Lama Dev](https://www.youtube.com/@LamaDev).
+This is a simple responsive UI mockup of React social media app built with React & Mui by following [Mui video tutorial](https://www.youtube.com/watch?v=fzxEECHnsvU) provided by [Lama Dev](https://www.youtube.com/@LamaDev).
 
 ## Available Scripts
 
