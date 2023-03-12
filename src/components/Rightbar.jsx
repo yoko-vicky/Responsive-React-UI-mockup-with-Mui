@@ -15,8 +15,8 @@ import React from 'react';
 
 function Rightbar() {
   return (
-    <Box flex={2} p={2} sx={{ display: { xs: 'none', sm: 'block' } }}>
-      <Box position={'fixed'} right={0} sx={{ paddingRight: '40px' }}>
+    <Box flex={2} p={2} sx={{ display: { xs: 'none', lg: 'block' } }}>
+      <Box position={'fixed'} right={0} sx={{ paddingRight: '20px' }}>
         <Typography variant="h6" fontWeight={100} mb={2}>
           Online Friends
         </Typography>
@@ -67,11 +67,11 @@ function Rightbar() {
           cols={3}
           rowHeight={130}
         >
-          <ImageListItem key={0}>
+          <ImageListItem key={0} sx={{ height: '100%', overflow: 'hidden' }}>
             <img
-              src="https://images.pexels.com/photos/8512140/pexels-photo-8512140.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              src="https://images.pexels.com/photos/15229977/pexels-photo-15229977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt={'alt'}
-              height={'100%'}
+              loading="lazy"
             />
           </ImageListItem>
           <ImageListItem key={0}>
@@ -84,48 +84,6 @@ function Rightbar() {
           <ImageListItem key={0}>
             <img
               src="https://images.pexels.com/photos/5364939/pexels-photo-5364939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt={'alt'}
-              loading="lazy"
-            />
-          </ImageListItem>
-          <ImageListItem key={0}>
-            <img
-              src="https://images.pexels.com/photos/13862328/pexels-photo-13862328.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt={'alt'}
-              loading="lazy"
-            />
-          </ImageListItem>
-          <ImageListItem key={0}>
-            <img
-              src="https://images.pexels.com/photos/6204030/pexels-photo-6204030.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt={'alt'}
-              loading="lazy"
-            />
-          </ImageListItem>
-          <ImageListItem key={0}>
-            <img
-              src="https://images.pexels.com/photos/6121164/pexels-photo-6121164.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt={'alt'}
-              loading="lazy"
-            />
-          </ImageListItem>
-          <ImageListItem key={0} sx={{ height: '100%', overflow: 'hidden' }}>
-            <img
-              src="https://images.pexels.com/photos/15229977/pexels-photo-15229977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt={'alt'}
-              loading="lazy"
-            />
-          </ImageListItem>
-          <ImageListItem key={0} sx={{ height: '100%', overflow: 'hidden' }}>
-            <img
-              src="https://images.pexels.com/photos/15293832/pexels-photo-15293832.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt={'alt'}
-              loading="lazy"
-            />
-          </ImageListItem>
-          <ImageListItem key={0} sx={{ height: '100%', overflow: 'hidden' }}>
-            <img
-              src="https://images.pexels.com/photos/15193735/pexels-photo-15193735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt={'alt'}
               loading="lazy"
             />
